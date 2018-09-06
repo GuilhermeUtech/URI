@@ -1,6 +1,4 @@
-import math
-raio = float(input())
-pi = math.pi
-
-area = (raio**2)*pi
-print("A área é: {:.6}".format(area))
+a = float(input())
+pi = 3.14159
+area = pi *(a**2)
+print("A=%.4f"%area)
